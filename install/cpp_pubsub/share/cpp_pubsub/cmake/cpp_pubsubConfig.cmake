@@ -1,0 +1,1 @@
+/home/kyrgios/ros2ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake

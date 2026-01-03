@@ -1,0 +1,24 @@
+[0.624s] Invoking command in '/home/kyrgios/ros2ws/src/robocon_basics': PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_basics build --build-base /home/kyrgios/ros2ws/build/robocon_basics/build install --record /home/kyrgios/ros2ws/build/robocon_basics/install.log --single-version-externally-managed install_data
+[0.789s] running egg_info
+[0.789s] writing ../../build/robocon_basics/robocon_basics.egg-info/PKG-INFO
+[0.790s] writing dependency_links to ../../build/robocon_basics/robocon_basics.egg-info/dependency_links.txt
+[0.790s] writing entry points to ../../build/robocon_basics/robocon_basics.egg-info/entry_points.txt
+[0.790s] writing requirements to ../../build/robocon_basics/robocon_basics.egg-info/requires.txt
+[0.790s] writing top-level names to ../../build/robocon_basics/robocon_basics.egg-info/top_level.txt
+[0.791s] reading manifest file '../../build/robocon_basics/robocon_basics.egg-info/SOURCES.txt'
+[0.792s] writing manifest file '../../build/robocon_basics/robocon_basics.egg-info/SOURCES.txt'
+[0.792s] running build
+[0.792s] running build_py
+[0.792s] running install
+[0.792s] running install_lib
+[0.793s] running install_data
+[0.793s] creating /home/kyrgios/ros2ws/install/robocon_basics/share/robocon_basics/launch
+[0.793s] copying launch/launch.xml -> /home/kyrgios/ros2ws/install/robocon_basics/share/robocon_basics/launch
+[0.793s] running install_egg_info
+[0.795s] removing '/home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics-0.0.0-py3.10.egg-info' (and everything under it)
+[0.795s] Copying ../../build/robocon_basics/robocon_basics.egg-info to /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics-0.0.0-py3.10.egg-info
+[0.796s] running install_scripts
+[0.810s] Installing listener script to /home/kyrgios/ros2ws/install/robocon_basics/lib/robocon_basics
+[0.810s] Installing talker script to /home/kyrgios/ros2ws/install/robocon_basics/lib/robocon_basics
+[0.811s] writing list of installed files to '/home/kyrgios/ros2ws/build/robocon_basics/install.log'
+[0.828s] Invoked command in '/home/kyrgios/ros2ws/src/robocon_basics' returned '0': PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_basics build --build-base /home/kyrgios/ros2ws/build/robocon_basics/build install --record /home/kyrgios/ros2ws/build/robocon_basics/install.log --single-version-externally-managed install_data

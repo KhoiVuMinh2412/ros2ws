@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/robocon_basics/robocon_basics.egg-info
+writing ../../build/robocon_basics/robocon_basics.egg-info/PKG-INFO
+writing dependency_links to ../../build/robocon_basics/robocon_basics.egg-info/dependency_links.txt
+writing entry points to ../../build/robocon_basics/robocon_basics.egg-info/entry_points.txt
+writing requirements to ../../build/robocon_basics/robocon_basics.egg-info/requires.txt
+writing top-level names to ../../build/robocon_basics/robocon_basics.egg-info/top_level.txt
+writing manifest file '../../build/robocon_basics/robocon_basics.egg-info/SOURCES.txt'
+reading manifest file '../../build/robocon_basics/robocon_basics.egg-info/SOURCES.txt'
+writing manifest file '../../build/robocon_basics/robocon_basics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kyrgios/ros2ws/build/robocon_basics/build
+creating /home/kyrgios/ros2ws/build/robocon_basics/build/lib
+creating /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics
+copying robocon_basics/sub.py -> /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics
+copying robocon_basics/__init__.py -> /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics
+copying robocon_basics/pub.py -> /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics
+running install
+running install_lib
+creating /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics
+copying /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics/sub.py -> /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics
+copying /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics/__init__.py -> /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics
+copying /home/kyrgios/ros2ws/build/robocon_basics/build/lib/robocon_basics/pub.py -> /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics
+byte-compiling /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics/sub.py to sub.cpython-310.pyc
+byte-compiling /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics/pub.py to pub.cpython-310.pyc
+running install_data
+creating /home/kyrgios/ros2ws/install/robocon_basics/share/ament_index
+creating /home/kyrgios/ros2ws/install/robocon_basics/share/ament_index/resource_index
+creating /home/kyrgios/ros2ws/install/robocon_basics/share/ament_index/resource_index/packages
+copying resource/robocon_basics -> /home/kyrgios/ros2ws/install/robocon_basics/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyrgios/ros2ws/install/robocon_basics/share/robocon_basics
+running install_egg_info
+Copying ../../build/robocon_basics/robocon_basics.egg-info to /home/kyrgios/ros2ws/install/robocon_basics/lib/python3.10/site-packages/robocon_basics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/kyrgios/ros2ws/install/robocon_basics/lib/robocon_basics
+Installing talker script to /home/kyrgios/ros2ws/install/robocon_basics/lib/robocon_basics
+writing list of installed files to '/home/kyrgios/ros2ws/build/robocon_basics/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+listener = robocon_basics.sub:main
+talker = robocon_basics.pub:main
+
