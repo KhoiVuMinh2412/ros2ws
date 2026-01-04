@@ -1,0 +1,37 @@
+[0.528s] Invoking command in '/home/kyrgios/ros2ws/src/robocon_camera': AMENT_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/kyrgios/ros2ws/build/robocon_camera/build install --record /home/kyrgios/ros2ws/build/robocon_camera/install.log --single-version-externally-managed install_data
+[0.689s] running egg_info
+[0.689s] creating ../../build/robocon_camera/robocon_camera.egg-info
+[0.689s] writing ../../build/robocon_camera/robocon_camera.egg-info/PKG-INFO
+[0.689s] writing dependency_links to ../../build/robocon_camera/robocon_camera.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../../build/robocon_camera/robocon_camera.egg-info/entry_points.txt
+[0.690s] writing requirements to ../../build/robocon_camera/robocon_camera.egg-info/requires.txt
+[0.690s] writing top-level names to ../../build/robocon_camera/robocon_camera.egg-info/top_level.txt
+[0.690s] writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[0.691s] reading manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[0.692s] writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[0.692s] running build
+[0.692s] running build_py
+[0.692s] creating /home/kyrgios/ros2ws/build/robocon_camera/build
+[0.692s] creating /home/kyrgios/ros2ws/build/robocon_camera/build/lib
+[0.692s] creating /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+[0.692s] copying robocon_camera/__init__.py -> /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+[0.692s] copying robocon_camera/webcampub.py -> /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+[0.692s] running install
+[0.692s] running install_lib
+[0.693s] creating /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[0.693s] copying /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera/__init__.py -> /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[0.693s] copying /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera/webcampub.py -> /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[0.693s] byte-compiling /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/__init__.py to __init__.cpython-310.pyc
+[0.693s] byte-compiling /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/webcampub.py to webcampub.cpython-310.pyc
+[0.694s] running install_data
+[0.694s] creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index
+[0.694s] creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index
+[0.694s] creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index/packages
+[0.694s] copying resource/robocon_camera -> /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index/packages
+[0.694s] copying package.xml -> /home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera
+[0.694s] running install_egg_info
+[0.696s] Copying ../../build/robocon_camera/robocon_camera.egg-info to /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera-0.0.0-py3.10.egg-info
+[0.696s] running install_scripts
+[0.710s] Installing talker script to /home/kyrgios/ros2ws/install/robocon_camera/lib/robocon_camera
+[0.710s] writing list of installed files to '/home/kyrgios/ros2ws/build/robocon_camera/install.log'
+[0.727s] Invoked command in '/home/kyrgios/ros2ws/src/robocon_camera' returned '0': AMENT_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/kyrgios/ros2ws/build/robocon_camera/build install --record /home/kyrgios/ros2ws/build/robocon_camera/install.log --single-version-externally-managed install_data

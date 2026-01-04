@@ -1,0 +1,23 @@
+In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c:28[m[K:
+[01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c:28[m[K:
+[01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c.o] Error 1
+gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:28[m[K:
+[01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+   22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

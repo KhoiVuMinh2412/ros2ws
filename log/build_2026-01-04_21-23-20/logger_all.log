@@ -1,0 +1,254 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robocon_interfaces', 'robocon_camera']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robocon_interfaces', 'robocon_camera'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f71d1774dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f71d18e9b40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f71d18e9b40>>)
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kyrgios/ros2ws'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_basics) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocon_basics' with type 'ros.ament_python' and name 'robocon_basics'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_camera) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocon_camera' with type 'ros.ament_python' and name 'robocon_camera'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/robocon_interfaces) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robocon_interfaces' with type 'ros.ament_cmake' and name 'robocon_interfaces'
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.432s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_pubsub' in 'src/cpp_pubsub'
+[0.432s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_srvcli' in 'src/cpp_srvcli'
+[0.432s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'src/py_pubsub'
+[0.432s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robocon_basics' in 'src/robocon_basics'
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kyrgios/ros2ws/src/install
+[0.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'robocon_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.490s] DEBUG:colcon.colcon_core.verb:Building package 'robocon_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kyrgios/ros2ws/build/robocon_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kyrgios/ros2ws/install/robocon_interfaces', 'merge_install': False, 'path': '/home/kyrgios/ros2ws/src/robocon_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'robocon_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'robocon_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kyrgios/ros2ws/build/robocon_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kyrgios/ros2ws/install/robocon_camera', 'merge_install': False, 'path': '/home/kyrgios/ros2ws/src/robocon_camera', 'symlink_install': False, 'test_result_base': None}
+[0.491s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kyrgios/ros2ws/src/robocon_interfaces' with build type 'ament_cmake'
+[0.493s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kyrgios/ros2ws/src/robocon_interfaces'
+[0.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake /home/kyrgios/ros2ws/src/robocon_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyrgios/ros2ws/install/robocon_interfaces
+[2.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake /home/kyrgios/ros2ws/src/robocon_interfaces -DCMAKE_INSTALL_PREFIX=/home/kyrgios/ros2ws/install/robocon_interfaces
+[2.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
+[3.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
+[3.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake --install /home/kyrgios/ros2ws/build/robocon_interfaces
+[3.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocon_interfaces)
+[3.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/src/install/robocon_camera:/opt/ros/humble /usr/bin/cmake --install /home/kyrgios/ros2ws/build/robocon_interfaces
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces' for CMake module files
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces' for CMake config files
+[3.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_interfaces', 'cmake_prefix_path')
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.ps1'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.dsv'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.sh'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib'
+[3.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_interfaces', 'ld_library_path_lib')
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.ps1'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.sh'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/bin'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib/pkgconfig/robocon_interfaces.pc'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib/python3.10/site-packages'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/bin'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.ps1'
+[3.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.dsv'
+[3.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.sh'
+[3.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.bash'
+[3.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.zsh'
+[3.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kyrgios/ros2ws/install/robocon_interfaces/share/colcon-core/packages/robocon_interfaces)
+[3.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocon_interfaces)
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces' for CMake module files
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces' for CMake config files
+[3.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_interfaces', 'cmake_prefix_path')
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/cmake_prefix_path.sh'
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib'
+[3.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_interfaces', 'ld_library_path_lib')
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.ps1'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/hook/ld_library_path_lib.sh'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/bin'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib/pkgconfig/robocon_interfaces.pc'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/lib/python3.10/site-packages'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_interfaces/bin'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.ps1'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.dsv'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.sh'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.bash'
+[3.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.zsh'
+[3.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kyrgios/ros2ws/install/robocon_interfaces/share/colcon-core/packages/robocon_interfaces)
+[3.918s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kyrgios/ros2ws/src/robocon_camera' with build type 'ament_python'
+[3.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_camera', 'ament_prefix_path')
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/ament_prefix_path.ps1'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/ament_prefix_path.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/ament_prefix_path.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.153s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kyrgios/ros2ws/src/robocon_camera'
+[4.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kyrgios/ros2ws/src/robocon_camera': AMENT_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces LD_LIBRARY_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages:/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/kyrgios/ros2ws/build/robocon_camera/build install --record /home/kyrgios/ros2ws/build/robocon_camera/install.log --single-version-externally-managed install_data
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera' for CMake module files
+[4.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kyrgios/ros2ws/src/robocon_camera' returned '0': AMENT_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces LD_LIBRARY_PATH=/home/kyrgios/ros2ws/install/robocon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyrgios/ros2ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages:/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/kyrgios/ros2ws/build/robocon_camera/build install --record /home/kyrgios/ros2ws/build/robocon_camera/install.log --single-version-externally-managed install_data
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera' for CMake config files
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera/lib'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera/bin'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera/lib/pkgconfig/robocon_camera.pc'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages'
+[4.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('robocon_camera', 'pythonpath')
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/pythonpath.ps1'
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/pythonpath.dsv'
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/hook/pythonpath.sh'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/kyrgios/ros2ws/install/robocon_camera/bin'
+[4.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robocon_camera)
+[4.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/package.ps1'
+[4.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/package.dsv'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/package.sh'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/package.bash'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera/package.zsh'
+[4.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kyrgios/ros2ws/install/robocon_camera/share/colcon-core/packages/robocon_camera)
+[4.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.708s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.713s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.713s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.713s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.722s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kyrgios/ros2ws/install/local_setup.ps1'
+[4.724s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kyrgios/ros2ws/install/_local_setup_util_ps1.py'
+[4.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kyrgios/ros2ws/install/setup.ps1'
+[4.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kyrgios/ros2ws/install/local_setup.sh'
+[4.726s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kyrgios/ros2ws/install/_local_setup_util_sh.py'
+[4.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kyrgios/ros2ws/install/setup.sh'
+[4.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kyrgios/ros2ws/install/local_setup.bash'
+[4.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kyrgios/ros2ws/install/setup.bash'
+[4.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kyrgios/ros2ws/install/local_setup.zsh'
+[4.729s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kyrgios/ros2ws/install/setup.zsh'

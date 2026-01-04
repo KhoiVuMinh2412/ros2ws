@@ -1,0 +1,244 @@
+[0.011s] Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
+[0.035s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.181s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.469s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.013s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.014s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.051s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.057s] -- Added test 'lint_cmake' to check CMake code style
+[1.058s] -- Added test 'xmllint' to check XML markup files
+[1.059s] -- Configuring done
+[1.091s] -- Generating done
+[1.101s] -- Build files have been written to: /home/kyrgios/ros2ws/build/robocon_interfaces
+[1.131s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_generator_c[0m
+[1.140s] [  3%] Built target robocon_interfaces__cpp
+[1.141s] [  6%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robocon_interfaces/srv/detail/image_analysis__functions.c.o[0m
+[1.152s] [  6%] Built target ament_cmake_python_copy_robocon_interfaces
+[1.152s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_cpp[0m
+[1.153s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.153s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.166s] [  9%] [32mBuilding CXX object CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robocon_interfaces/srv/detail/dds_fastrtps/image_analysis__type_support.cpp.o[0m
+[1.166s] [ 12%] [32mBuilding CXX object CMakeFiles/robocon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robocon_interfaces/srv/image_analysis__type_support.cpp.o[0m
+[1.166s] [ 16%] [32mBuilding CXX object CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robocon_interfaces/srv/detail/image_analysis__type_support.cpp.o[0m
+[1.202s] [ 19%] [32m[1mLinking C shared library librobocon_interfaces__rosidl_generator_c.so[0m
+[1.248s] [ 22%] Built target robocon_interfaces__rosidl_generator_c
+[1.263s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_c[0m
+[1.263s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_c[0m
+[1.263s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.281s] [ 32%] [32mBuilding CXX object CMakeFiles/robocon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robocon_interfaces/srv/image_analysis__type_support.cpp.o[0m
+[1.281s] [ 32%] [32mBuilding CXX object CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robocon_interfaces/srv/detail/image_analysis__type_support_c.cpp.o[0m
+[1.281s] [ 32%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robocon_interfaces/srv/detail/image_analysis__type_support.c.o[0m
+[1.331s] [ 35%] [32m[1mLinking CXX shared library librobocon_interfaces__rosidl_typesupport_c.so[0m
+[1.337s] [ 38%] [32m[1mLinking C shared library librobocon_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.389s] [ 45%] Built target robocon_interfaces__rosidl_typesupport_c
+[1.389s] [ 45%] Built target robocon_interfaces__rosidl_typesupport_introspection_c
+[1.411s] running egg_info
+[1.411s] writing robocon_interfaces.egg-info/PKG-INFO
+[1.411s] writing dependency_links to robocon_interfaces.egg-info/dependency_links.txt
+[1.412s] writing top-level names to robocon_interfaces.egg-info/top_level.txt
+[1.414s] reading manifest file 'robocon_interfaces.egg-info/SOURCES.txt'
+[1.414s] writing manifest file 'robocon_interfaces.egg-info/SOURCES.txt'
+[1.450s] [ 48%] [32m[1mLinking CXX shared library librobocon_interfaces__rosidl_typesupport_cpp.so[0m
+[1.468s] [ 48%] Built target ament_cmake_python_build_robocon_interfaces_egg
+[1.498s] [ 51%] Built target robocon_interfaces__rosidl_typesupport_cpp
+[1.551s] [ 54%] [32m[1mLinking CXX shared library librobocon_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.567s] [ 58%] [32m[1mLinking CXX shared library librobocon_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.623s] [ 61%] [32m[1mLinking CXX shared library librobocon_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.635s] [ 64%] Built target robocon_interfaces__rosidl_typesupport_introspection_cpp
+[1.662s] [ 67%] Built target robocon_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.703s] [ 70%] Built target robocon_interfaces__rosidl_typesupport_fastrtps_c
+[1.725s] [ 70%] Built target robocon_interfaces
+[1.747s] [ 74%] Built target robocon_interfaces__py
+[1.757s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_generator_py[0m
+[1.770s] [ 77%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robocon_interfaces/srv/_image_analysis_s.c.o[0m
+[1.855s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robocon_interfaces/librobocon_interfaces__rosidl_generator_py.so[0m
+[1.900s] [ 80%] Built target robocon_interfaces__rosidl_generator_py
+[1.910s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_c__pyext[0m
+[1.924s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.924s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.924s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.013s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.013s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.013s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.051s] [100%] Built target robocon_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.051s] [100%] Built target robocon_interfaces__rosidl_typesupport_c__pyext
+[2.051s] [100%] Built target robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.063s] Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
+[2.073s] Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/kyrgios/ros2ws/build/robocon_interfaces
+[2.080s] -- Install configuration: ""
+[2.080s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/ament_index/resource_index/rosidl_interfaces/robocon_interfaces
+[2.080s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.080s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/image_msg.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__functions.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__type_support.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__functions.c
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__struct.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/image_analysis.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__type_support.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__functions.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__struct.h
+[2.081s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__functions.c
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/library_path.sh
+[2.082s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/library_path.dsv
+[2.082s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_generator_c.so
+[2.082s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_generator_c.so" to ""
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__rosidl_typesupport_fastrtps_c.h
+[2.082s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.082s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.082s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__type_support.c
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.083s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__type_support.c
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__rosidl_typesupport_introspection_c.h
+[2.083s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_introspection_c.so
+[2.083s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.083s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_c.so
+[2.083s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_c.so" to ""
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/image_msg.hpp
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__builder.hpp
+[2.083s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__traits.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__struct.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__type_support.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__struct.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__type_support.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__traits.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__builder.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/image_analysis.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/dds_fastrtps
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__rosidl_typesupport_fastrtps_cpp.hpp
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/dds_fastrtps
+[2.084s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.084s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.084s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/msg/detail/image_msg__type_support.cpp
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail
+[2.085s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__rosidl_typesupport_introspection_cpp.hpp
+[2.085s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/include/robocon_interfaces/robocon_interfaces/srv/detail/image_analysis__type_support.cpp
+[2.085s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.085s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_cpp.so
+[2.086s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.086s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/pythonpath.sh
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/pythonpath.dsv
+[2.086s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces-0.0.0-py3.10.egg-info
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.086s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces
+[2.087s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/msg
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/msg/_image_msg_s.c
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/msg/__init__.py
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/msg/_image_msg.py
+[2.087s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/librobocon_interfaces__rosidl_generator_py.so
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/srv
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/srv/_image_analysis_s.c
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/srv/_image_analysis.py
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/srv/__init__.py
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c
+[2.087s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.087s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.088s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/__init__.py
+[2.088s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.088s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.114s] Listing '/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces'...
+[2.114s] Compiling '/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/__init__.py'...
+[2.114s] Listing '/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/msg'...
+[2.114s] Listing '/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/srv'...
+[2.117s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.118s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.118s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.119s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.119s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.119s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/local/lib/python3.10/dist-packages/robocon_interfaces/robocon_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.119s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_generator_py.so
+[2.120s] -- Set runtime path of "/home/kyrgios/ros2ws/install/robocon_interfaces/lib/librobocon_interfaces__rosidl_generator_py.so" to ""
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/srv/ImageAnalysis.idl
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/srv/ImageAnalysis.srv
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/srv/ImageAnalysis_Request.msg
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/srv/ImageAnalysis_Response.msg
+[2.120s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/ament_index/resource_index/package_run_dependencies/robocon_interfaces
+[2.120s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/ament_index/resource_index/parent_prefix_path/robocon_interfaces
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/ament_prefix_path.sh
+[2.120s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/ament_prefix_path.dsv
+[2.120s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/path.sh
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/environment/path.dsv
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/local_setup.bash
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/local_setup.sh
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/local_setup.zsh
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/local_setup.dsv
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.dsv
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/ament_index/resource_index/packages/robocon_interfaces
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_generator_cExport.cmake
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.121s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.121s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.122s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_cExport.cmake
+[2.122s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.122s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_generator_cppExport.cmake
+[2.122s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.122s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.122s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.122s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.122s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_cppExport.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.123s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_generator_pyExport.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/export_robocon_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.123s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.123s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.123s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.123s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfacesConfig.cmake
+[2.124s] -- Up-to-date: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/cmake/robocon_interfacesConfig-version.cmake
+[2.124s] -- Installing: /home/kyrgios/ros2ws/install/robocon_interfaces/share/robocon_interfaces/package.xml
+[2.126s] Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/kyrgios/ros2ws/build/robocon_interfaces

@@ -1,0 +1,6 @@
+{
+  "package_name": "robocon_interfaces",
+  "non_idl_tuples": [
+    "/home/kyrgios/ros2ws/src/robocon_interfaces:srv/ImageAnalysis.srv"
+  ]
+}

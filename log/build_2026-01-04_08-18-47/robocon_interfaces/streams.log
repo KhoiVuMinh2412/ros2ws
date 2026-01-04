@@ -1,0 +1,76 @@
+[0.011s] Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
+[0.035s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.780s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.780s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.780s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.788s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.795s] -- Added test 'lint_cmake' to check CMake code style
+[0.796s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done
+[0.820s] -- Generating done
+[0.830s] -- Build files have been written to: /home/kyrgios/ros2ws/build/robocon_interfaces
+[0.858s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_generator_c[0m
+[0.868s] [  3%] Built target robocon_interfaces__cpp
+[0.868s] [ 12%] Built target robocon_interfaces__rosidl_generator_c
+[0.878s] [ 12%] Built target ament_cmake_python_copy_robocon_interfaces
+[0.878s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.878s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_cpp[0m
+[0.878s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.891s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_c[0m
+[0.891s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_c[0m
+[0.891s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.891s] [ 22%] Built target robocon_interfaces__rosidl_typesupport_introspection_cpp
+[0.891s] [ 32%] Built target robocon_interfaces__rosidl_typesupport_cpp
+[0.894s] [ 41%] Built target robocon_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.902s] [ 61%] Built target robocon_interfaces__rosidl_typesupport_c
+[0.902s] [ 61%] Built target robocon_interfaces__rosidl_typesupport_introspection_c
+[0.903s] [ 70%] Built target robocon_interfaces__rosidl_typesupport_fastrtps_c
+[0.925s] [ 70%] Built target robocon_interfaces
+[0.950s] [ 74%] Built target robocon_interfaces__py
+[0.961s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_generator_py[0m
+[0.975s] [ 80%] Built target robocon_interfaces__rosidl_generator_py
+[0.985s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.985s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_c__pyext[0m
+[0.985s] [35m[1mConsolidate compiler generated dependencies of target robocon_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.998s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.999s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[0.999s] [ 90%] [32mBuilding C object CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.057s] In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c:28[m[K:
+[1.057s] [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+[1.057s]    22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+[1.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.057s] compilation terminated.
+[1.057s] In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c:28[m[K:
+[1.057s] [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+[1.057s]    22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+[1.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.057s] compilation terminated.
+[1.059s] gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_c.c.o] Error 1
+[1.059s] gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] Error 1
+[1.059s] gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/robocon_interfaces__rosidl_typesupport_c__pyext.dir/all] Error 2
+[1.059s] gmake[1]: *** Waiting for unfinished jobs....
+[1.059s] gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/robocon_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+[1.062s] In file included from [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:28[m[K:
+[1.062s] [01m[K/home/kyrgios/ros2ws/build/robocon_interfaces/rosidl_generator_c/robocon_interfaces/msg/detail/image_msg__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory
+[1.062s]    22 | #include [01;31m[K"sensor_msgs/msg/detail/image__struct.h"[m[K
+[1.063s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.063s] compilation terminated.
+[1.064s] gmake[2]: *** [CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robocon_interfaces/_robocon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] Error 1
+[1.064s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+[1.087s] running egg_info
+[1.087s] writing robocon_interfaces.egg-info/PKG-INFO
+[1.088s] writing dependency_links to robocon_interfaces.egg-info/dependency_links.txt
+[1.088s] writing top-level names to robocon_interfaces.egg-info/top_level.txt
+[1.089s] reading manifest file 'robocon_interfaces.egg-info/SOURCES.txt'
+[1.090s] writing manifest file 'robocon_interfaces.egg-info/SOURCES.txt'
+[1.118s] [ 90%] Built target ament_cmake_python_build_robocon_interfaces_egg
+[1.119s] gmake: *** [Makefile:146: all] Error 2
+[1.123s] Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12

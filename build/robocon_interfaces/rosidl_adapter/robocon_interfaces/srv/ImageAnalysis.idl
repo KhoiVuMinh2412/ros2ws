@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robocon_interfaces/srv/ImageAnalysis.srv
+// generated code does not contain a copyright notice
+
+
+module robocon_interfaces {
+  module srv {
+    struct ImageAnalysis_Request {
+      boolean analyze_brightness;
+
+      boolean detect_motion;
+    };
+    struct ImageAnalysis_Response {
+      float avg_brightness;
+
+      boolean motion_detected;
+
+      string analysis_result;
+    };
+  };
+};

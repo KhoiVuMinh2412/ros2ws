@@ -1,0 +1,4 @@
+
+float32 avg_brightness
+bool motion_detected
+string analysis_result

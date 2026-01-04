@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robocon_interfaces__py",
+		"source" : "/home/kyrgios/ros2ws/build/robocon_interfaces/robocon_interfaces__py"
+	}
+}

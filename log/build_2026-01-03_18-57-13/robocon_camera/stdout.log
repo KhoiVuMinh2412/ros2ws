@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robocon_camera/robocon_camera.egg-info
+writing ../../build/robocon_camera/robocon_camera.egg-info/PKG-INFO
+writing dependency_links to ../../build/robocon_camera/robocon_camera.egg-info/dependency_links.txt
+writing entry points to ../../build/robocon_camera/robocon_camera.egg-info/entry_points.txt
+writing requirements to ../../build/robocon_camera/robocon_camera.egg-info/requires.txt
+writing top-level names to ../../build/robocon_camera/robocon_camera.egg-info/top_level.txt
+writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+reading manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kyrgios/ros2ws/build/robocon_camera/build
+creating /home/kyrgios/ros2ws/build/robocon_camera/build/lib
+creating /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+copying robocon_camera/__init__.py -> /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+copying robocon_camera/webcampub.py -> /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera
+running install
+running install_lib
+creating /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+copying /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera/__init__.py -> /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+copying /home/kyrgios/ros2ws/build/robocon_camera/build/lib/robocon_camera/webcampub.py -> /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+byte-compiling /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/webcampub.py to webcampub.cpython-310.pyc
+running install_data
+creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index
+creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index
+creating /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index/packages
+copying resource/robocon_camera -> /home/kyrgios/ros2ws/install/robocon_camera/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyrgios/ros2ws/install/robocon_camera/share/robocon_camera
+running install_egg_info
+Copying ../../build/robocon_camera/robocon_camera.egg-info to /home/kyrgios/ros2ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/kyrgios/ros2ws/install/robocon_camera/lib/robocon_camera
+writing list of installed files to '/home/kyrgios/ros2ws/build/robocon_camera/install.log'
