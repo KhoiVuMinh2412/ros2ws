@@ -1,4 +1,0 @@
-[console_scripts]
-serv = robocon_camera.imagesrv:main
-talker = robocon_camera.pub:main
-
