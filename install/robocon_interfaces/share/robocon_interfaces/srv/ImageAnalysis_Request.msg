@@ -1,2 +1,0 @@
-bool analyze_brightness
-bool detect_motion

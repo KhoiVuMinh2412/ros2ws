@@ -1,9 +1,0 @@
-[0.009s] Invoking command in '/home/kyrgios/ros2ws/build/robocon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12
-[0.042s] [31mCMake Error at CMakeLists.txt:14:
-[0.042s]   Parse error.  Function missing ending ")".  End of file reached.
-[0.042s] 
-[0.043s] [0m
-[0.043s] -- Configuring incomplete, errors occurred!
-[0.043s] See also "/home/kyrgios/ros2ws/build/robocon_interfaces/CMakeFiles/CMakeOutput.log".
-[0.044s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.046s] Invoked command in '/home/kyrgios/ros2ws/build/robocon_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kyrgios/ros2ws/install/robocon_camera:/home/kyrgios/ros2ws/install/robocon_basics:/home/kyrgios/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/kyrgios/ros2ws/build/robocon_interfaces -- -j12 -l12

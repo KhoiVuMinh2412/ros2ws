@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000170] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000226] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
-[0.000253] (-) JobUnselected: {'identifier': 'py_pubsub'}
-[0.000275] (-) JobUnselected: {'identifier': 'robocon_basics'}
-[0.000302] (-) JobUnselected: {'identifier': 'robocon_camera'}
-[0.000322] (-) JobUnselected: {'identifier': 'robocon_interfaces'}
-[0.000344] (-) EventReactorShutdown: {}
